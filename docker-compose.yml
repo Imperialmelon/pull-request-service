@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: avito-postgres
+    environment:
+      POSTGRES_DB: avito
+      POSTGRES_USER: avito
+      POSTGRES_PASSWORD: avito
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./migrations:/docker-entrypoint-initdb.d
+    networks:
+      - avito-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avito -d avito"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: avito-api
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: avito
+      DB_PASSWORD: avito
+      DB_NAME: avito
+      DB_SSLMODE: disable
+      PORT: 8080
+      HOST: 0.0.0.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - avito-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  avito-network:
+    driver: bridge
