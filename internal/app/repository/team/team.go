@@ -40,7 +40,6 @@ func (r *PostgresRepository) Add(req models.TeamApi) (models.TeamApi, error) {
 	err := r.db.QueryRow(
 		`INSERT INTO team (team_id, team_name)
          VALUES ($1, $2)
-         ON CONFLICT (team_name) DO UPDATE SET team_name = EXCLUDED.team_name
          RETURNING _id`,
 		uuid.New().String(),
 		req.Name,
