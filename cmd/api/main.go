@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/imperialmelon/avito/cmd/api/app"
+	"github.com/Imperialmelon/AvitoTechTest/cmd/api/app"
 )
 
 func main() {

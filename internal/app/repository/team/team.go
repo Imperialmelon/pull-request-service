@@ -8,9 +8,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/lib/pq"
 
-	repoerrors "github.com/imperialmelon/avito/internal/app/repository/errors"
-	svcerrors "github.com/imperialmelon/avito/internal/errors"
-	"github.com/imperialmelon/avito/internal/models"
+	repoerrors "github.com/Imperialmelon/AvitoTechTest/internal/app/repository/errors"
+	svcerrors "github.com/Imperialmelon/AvitoTechTest/internal/errors"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 )
 
 type PostgresRepository struct {

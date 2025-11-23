@@ -3,7 +3,7 @@ package user
 import (
 	pkgerrors "github.com/pkg/errors"
 
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 )
 
 type Service struct {

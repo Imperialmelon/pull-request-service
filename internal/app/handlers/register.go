@@ -3,10 +3,10 @@ package handlers
 import (
 	"github.com/gorilla/mux"
 
-	"github.com/imperialmelon/avito/internal/app/handlers/pr"
-	"github.com/imperialmelon/avito/internal/app/handlers/team"
-	"github.com/imperialmelon/avito/internal/app/handlers/user"
-	"github.com/imperialmelon/avito/internal/app/usecase"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/handlers/pr"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/handlers/team"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/handlers/user"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase"
 )
 
 type Registrator struct {

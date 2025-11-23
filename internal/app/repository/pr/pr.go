@@ -7,9 +7,9 @@ import (
 	"log"
 	"time"
 
-	repoerrors "github.com/imperialmelon/avito/internal/app/repository/errors"
-	svcerrors "github.com/imperialmelon/avito/internal/errors"
-	"github.com/imperialmelon/avito/internal/models"
+	repoerrors "github.com/Imperialmelon/AvitoTechTest/internal/app/repository/errors"
+	svcerrors "github.com/Imperialmelon/AvitoTechTest/internal/errors"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 	"github.com/lib/pq"
 )
 

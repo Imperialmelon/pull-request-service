@@ -6,10 +6,10 @@ import (
 	"log"
 	"net/http"
 
+	svcerrors "github.com/Imperialmelon/AvitoTechTest/internal/errors"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/utils"
 	"github.com/gorilla/mux"
-	svcerrors "github.com/imperialmelon/avito/internal/errors"
-	"github.com/imperialmelon/avito/internal/models"
-	"github.com/imperialmelon/avito/internal/utils"
 )
 
 type Handler struct {

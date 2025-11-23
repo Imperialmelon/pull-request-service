@@ -1,6 +1,6 @@
 package pr
 
-import "github.com/imperialmelon/avito/internal/models"
+import "github.com/Imperialmelon/AvitoTechTest/internal/models"
 
 type PRUseCase interface {
 	Create(req models.CreatePRRequest) (models.PullRequestAPIShortWithReviewers, error)

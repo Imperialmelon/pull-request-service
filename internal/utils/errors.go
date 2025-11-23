@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 )
 
 func WriteErrorJSON(w http.ResponseWriter, statusCode int, code models.ErrorCode, message string) {

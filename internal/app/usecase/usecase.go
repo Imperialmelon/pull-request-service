@@ -1,10 +1,10 @@
 package usecase
 
 import (
-	"github.com/imperialmelon/avito/internal/app/service"
-	"github.com/imperialmelon/avito/internal/app/usecase/pr"
-	"github.com/imperialmelon/avito/internal/app/usecase/team"
-	"github.com/imperialmelon/avito/internal/app/usecase/user"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/service"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase/pr"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase/team"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase/user"
 )
 
 // Repository алиас для service.Repository

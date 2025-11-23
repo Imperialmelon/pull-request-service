@@ -1,6 +1,6 @@
 package team
 
-import "github.com/imperialmelon/avito/internal/models"
+import "github.com/Imperialmelon/AvitoTechTest/internal/models"
 
 type TeamUseCase interface {
 	Add(req models.TeamApi) (models.TeamApi, error)

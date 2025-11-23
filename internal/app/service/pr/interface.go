@@ -1,7 +1,7 @@
 package pr
 
 import (
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 )
 
 type PRRepository interface {

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	svcerrors "github.com/imperialmelon/avito/internal/errors"
-	"github.com/imperialmelon/avito/internal/models"
+	svcerrors "github.com/Imperialmelon/AvitoTechTest/internal/errors"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 )
 
 type PostgresRepository struct {

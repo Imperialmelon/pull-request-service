@@ -1,4 +1,5 @@
-module github.com/imperialmelon/avito
+module github.com/Imperialmelon/AvitoTechTestTechTest
+
 
 go 1.25.4
 

@@ -1,7 +1,7 @@
 package team
 
 import (
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 )
 
 type TeamService interface {

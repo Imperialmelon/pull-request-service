@@ -1,14 +1,14 @@
 package service
 
 import (
-	"github.com/imperialmelon/avito/internal/app/usecase/pr"
-	"github.com/imperialmelon/avito/internal/app/usecase/team"
-	"github.com/imperialmelon/avito/internal/app/usecase/user"
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase/pr"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase/team"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase/user"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 
-	prsvc "github.com/imperialmelon/avito/internal/app/service/pr"
-	teamsvc "github.com/imperialmelon/avito/internal/app/service/team"
-	usersvc "github.com/imperialmelon/avito/internal/app/service/user"
+	prsvc "github.com/Imperialmelon/AvitoTechTest/internal/app/service/pr"
+	teamsvc "github.com/Imperialmelon/AvitoTechTest/internal/app/service/team"
+	usersvc "github.com/Imperialmelon/AvitoTechTest/internal/app/service/user"
 )
 
 type Repository interface {

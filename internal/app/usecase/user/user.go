@@ -3,7 +3,7 @@ package user
 import (
 	"log"
 
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 	pkgerrors "github.com/pkg/errors"
 )
 

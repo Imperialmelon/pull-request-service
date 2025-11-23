@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/imperialmelon/avito/internal/app/repository/pr"
-	"github.com/imperialmelon/avito/internal/app/repository/team"
-	"github.com/imperialmelon/avito/internal/app/repository/user"
-	"github.com/imperialmelon/avito/internal/models"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/repository/pr"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/repository/team"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/repository/user"
+	"github.com/Imperialmelon/AvitoTechTest/internal/models"
 	_ "github.com/lib/pq"
 )
 

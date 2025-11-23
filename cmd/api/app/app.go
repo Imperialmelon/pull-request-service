@@ -9,11 +9,11 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/handlers"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/repository"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/service"
+	"github.com/Imperialmelon/AvitoTechTest/internal/app/usecase"
 	"github.com/gorilla/mux"
-	"github.com/imperialmelon/avito/internal/app/handlers"
-	"github.com/imperialmelon/avito/internal/app/repository"
-	"github.com/imperialmelon/avito/internal/app/service"
-	"github.com/imperialmelon/avito/internal/app/usecase"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
 
