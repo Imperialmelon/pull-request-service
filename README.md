@@ -1,4 +1,4 @@
-# AvitoTechTest
+# Pull Request Service
 
 ````markdown
 ## Запуск проекта
